@@ -64,7 +64,7 @@ function calculate(firstNumber, operator, secondNumber) {
       result = divide(firstNumber, secondNumber);
     }
     
-    return result.toFixed(6);
+    return result.toFixed(2);
 }
 
 function sum(firstNumber, secondNumber) {
